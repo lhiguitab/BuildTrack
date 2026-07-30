@@ -17,7 +17,6 @@
 - Clients without editing permissions.
 - Control ensuring that only an authorized role can modify the target date.
 
----
 
 ## OUT
 
@@ -32,7 +31,6 @@
 - Comprehensive financial and accounting control system.
 - Features typical of comprehensive construction business software.
 
----
 
 ## LATER
 
@@ -47,7 +45,6 @@
 - Geolocation features.
 - Cost, procurement, and BIM modules, subject to future evaluation.
 
----
 
 ## UNKNOWN
 
