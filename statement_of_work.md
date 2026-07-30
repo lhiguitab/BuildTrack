@@ -38,99 +38,42 @@ Contents:
 
 ### Title
 
-The official title of the project.
-
+BuildTrack
 
 ### Abstract
 
-Summarize the work, ideally in one paragraph.
-
-Include the most-relevant information about the project, objectives, issues,
-etc.
-
-Example: This Statement of Work (SOW) outlines the objectives, scope,
-deliverables, and timelines for the development and implementation of a new
-customer relationship management (CRM) system for XYZ Corporation. The project
-aims to enhance client interactions, streamline internal processes, and improve
-overall business operations through a customized CRM solution. The vendor will
-be responsible for the full lifecycle of the project, including system design,
-integration, data migration, user training, and post-implementation support. The
-timeline for completion is 12 months, with key milestones and deliverables
-identified at each phase. The total budget for the project is $500,000, with
-payment schedules linked to the completion of specific deliverables. This SOW
-ensures clear expectations, accountability, and performance standards throughout
-the duration of the project.
-
+This Statement of Work (SOW) outlines the objectives, scope, deliverables, roles, and timeline for the development and implementation of a web-based Construction Project Progress Tracker for BuildRight Contractors. The project aims to centralize project updates, milestone tracking, task progress, issue reporting, and weekly summaries for commercial renovation projects. BuildRight Contractors currently faces difficulties because project information is spread across messages, spreadsheets, and photo folders, making it hard for managers to understand the real status of each project and prepare client reports efficiently. The proposed solution will provide a dashboard where supervisors can update progress, operations managers can monitor project status, and client report preparers can generate weekly summaries. 
 
 ### Value
 
-Summarize the estimated value of the work, ideally in one paragraph.
-
-Include the most-relevant information about costs, including costs of products,
-services, materials, etc.
-
-If you prefer to provide more information about the value, then add an appendix
-section "Value".
-
-Example: The estimated value of the work outlined in this Statement of Work
-(SOW) is $500,000, covering the full scope of the CRM system development and
-implementation. This cost includes the design, customization, and integration of
-the software, along with data migration, user training, and post-implementation
-support. Additionally, the budget accounts for hardware and software licensing
-fees, professional services for system configuration, and ongoing maintenance
-for the first year. Payments will be made in installments upon the completion of
-key milestones, ensuring alignment with project progress and deliverables. Any
-potential changes or additional requirements will be assessed and billed
-separately, subject to agreement by both parties.
+The main value of this project lies in improving the management and oversight of construction projects by centralizing information on a single platform. The application will reduce the time spent preparing weekly reports, make it easier to track milestones and tasks, and improve the ability to respond to potential delays. The cost should include software development services, user interface design, database setup, dashboard development, testing, documentation, and initial support after deployment.
 
 
 ### Scope
 
-Summarize the range of the work, extent of the work, and parameters of the work,
-ideally in one paragraph.
+The project involves the development of a web application that allows users to create projects, define milestones, update the status of tasks or activities, log incidents, and view a weekly summary via a dashboard. The system will be intended for project supervisors, operations managers, and those responsible for preparing reports for clients. It will not include features for budget control, procurement management, BIM, advanced geolocation, or native mobile development.
 
-Include the most-relevant information about any requirements, such as people,
-processes, tools, etc.
+**Scope of Work:**
+- Creating and configuring projects.
+- Setting up and tracking milestones.
+- Updating the status of tasks or activities.
+- Logging and tracking issues.
+- Weekly progress summary view.
+- Dashboard to view project status.
+- Access for the different user roles defined in the project.
 
-If you prefer to provide more information about the value, then add an appendix
-section "Scope".
-
-Example: The scope of this project includes the end-to-end development,
-customization, and deployment of a CRM system for XYZ Corporation, designed to
-improve client management and streamline internal workflows. The work involves
-detailed system design and configuration, data migration from legacy systems,
-integration with existing software platforms, and user training for
-approximately 100 employees across multiple departments. The project will
-require collaboration between the vendor’s development team, XYZ Corporation’s
-IT department, and key business stakeholders. Tools used will include CRM
-software, data migration tools, and training platforms. Additionally, the vendor
-will provide post-launch support for a period of six months to address any
-system issues or updates. The work will be completed in a phased approach, with
-specific deliverables outlined at each stage to ensure project milestones are
-met on time.
+**Out of Scope:**
+- Budget control.
+- Purchasing or procurement management.
+- BIM (Building Information Modeling) features.
+- Advanced geolocation.
+- Native mobile app.
+- Offline data entry, as this is considered a future enhancement.
 
 
 ### Payment
 
-Summarize the payment for the work, in one paragraph.
-
-Include the most-relevant budget requirements, payment schedule, transfer
-methods, etc.
-
-If you prefer to provide more information about the payment, then add an
-appendix section "Payment".
-
-Example: The total budget for this project is $500,000, with payments structured
-across five key milestones. An initial payment of 20% ($100,000) will be due
-upon signing the contract to initiate the project. Subsequent payments will be
-made as follows: 30% ($150,000) upon completion of system design and approval,
-20% ($100,000) upon successful integration and data migration, 20% ($100,000)
-after user training and system testing, and the final 10% ($50,000) upon project
-completion and post-launch support handover. Payments will be made via bank
-transfer within 15 days of invoice submission, and invoices will be issued upon
-the successful completion of each milestone. Any changes to the project scope or
-timeline will be subject to additional billing, with prior written approval from
-XYZ Corporation.
+Payments may be divided according to project milestones to ensure alignment between progress and compensation. A suggested payment schedule is 20% upon contract signing, 25% after requirements analysis and system design approval, 25% after completion of the main project tracking modules, 20% after dashboard, weekly summary, and issue tracking functionality are completed, and 10% after final testing, deployment, and client acceptance.
 
 
 ## Purpose
@@ -138,145 +81,122 @@ XYZ Corporation.
 
 ### Objectives
 
-Describe the objectives of the work: what is to be achieved and delivered by the
-completion of the contract.
+The main objectives of the project are:
 
-We recommend [Objectives and Key Results
-(OKRs)](http://github.com/joelparkerhenderson/objectives-and-key-results/).
-
-Identify the most relevant goals, outcomes, and intended uses of the completed
-work.
-
-Example: The primary objective of this project is to design, develop, and
-implement a customized customer relationship management (CRM) system for XYZ
-Corporation, aimed at enhancing customer interactions, improving data
-management, and streamlining internal workflows. By the completion of the
-contract, the following key deliverables will be achieved: a fully integrated
-CRM platform, migration of existing client data into the new system,
-comprehensive user training for employees, and a seamless transition to ongoing
-system support. The CRM system will be configured to meet the specific needs of
-various departments, including sales, marketing, and customer service, enabling
-improved collaboration, more efficient data access, and enhanced reporting
-capabilities. The successful completion of this project will result in increased
-operational efficiency, better customer insights, and a more cohesive customer
-experience across the organization.
-
+- To centralize the monitoring of multiple construction projects.
+- To facilitate the management of milestones and tasks.
+- To enable the recording and tracking of incidents.
+- To improve visibility into project status.
+- To support the generation of weekly reports for clients via a dashboard.
+- To detect delays in project execution in a timely manner.
 
 ### Performance
 
-Describe the performance of the work: how the work is measured, what performance
-indicators are relevant, and what measurements and metrics are relevant.
+The success of the project will be evaluated using both **business** and **technical** performance indicators. These metrics will help determine whether the system achieves its operational objectives while meeting the expected technical quality standards.
 
-We recommend [Key Performance Indicators
-(KPIs)](http://github.com/joelparkerhenderson/key-performance-indicator/).
+Performance will be assessed through:
 
-Identify the most-relevant performance measurements and metrics, for the
-business aspects (e.g. net revenue, customer satisfaction) and for the technical
-aspects (e.g. average daily users, percent uptime).
+- Functional and integration testing
+- User feedback sessions
+- Project status meetings
+- Acceptance of each project deliverable
 
-Example: The performance of this project will be measured through a combination
-of business and technical indicators to ensure that the CRM system meets both
-functional requirements and organizational goals. Performance will be monitored
-through regular status meetings, user feedback, and system reports. Adjustments
-and optimizations will be made as needed to meet or exceed these agreed-upon
-metrics.
 
-Example business performance metrics:
+### Business Performance Metrics
 
-* Customer Satisfaction: A customer satisfaction score of 85% or higher should
-  be achieved through internal surveys measuring satisfaction with the CRM’s
-  ease of use, functionality, and overall impact on service delivery.
+These metrics evaluate the impact of the system on the organization's project management processes.
 
-* Net Revenue Impact: The CRM system should contribute to a 15% increase in lead
-  conversion rates and a 10% increase in customer retention within the first
-  year, as a result of more personalized customer management and streamlined
-  processes.
+| Metric | Description | Expected Outcome |
+|---------|-------------|------------------|
+| **Project Visibility** | Operations managers can monitor the status of all active projects from a centralized dashboard. | Improved visibility and decision-making across projects. |
+| **Reporting Efficiency** | Weekly project summaries reduce the manual effort required to prepare client reports. | Faster report generation with less administrative work. |
+| **Issue Tracking** | Project supervisors can record, update, and monitor project issues. | Managers can identify schedule risks and resolve problems earlier. |
+| **User Satisfaction** | Key users evaluate the system compared to the current process of using messages, spreadsheets, and photo folders. | Users consider the new system easier, more organized, and more efficient. |
 
-Example system performance metrics:
 
-* Uptime: The CRM system must maintain at least 99.9% uptime during operation to
-  ensure business continuity.
+### Technical Performance Metrics
 
-* Response Time: System response time should be less than 3 seconds for all user
-  actions, other than batch data processing, ensuring smooth user interactions.
+These metrics evaluate the quality, reliability, and usability of the application.
 
-* Data Accuracy: Migration of existing customer data must achieve at least 98%
-  accuracy with no data loss.
+| Metric | Description | Target |
+|---------|-------------|--------|
+| **System Availability** | The web application is accessible during agreed business hours, excluding scheduled maintenance. | High availability during operating hours. |
+| **Response Time** | Common actions (opening projects, updating tasks, viewing dashboards) execute within an acceptable time. | Ideally under **3 seconds** under normal usage. |
+| **Data Accuracy** | Information related to projects, milestones, tasks, and issues is stored and displayed correctly. | Accurate and consistent data across the system. |
+| **Role-Based Access** | Each user role only has access to the features required for its responsibilities. | Secure and appropriate access control. |
+| **User Adoption** | Operations managers, project supervisors, and report preparers can effectively use the system after basic onboarding. | Successful adoption with minimal training. |
 
-* User Adoption: At least 90% of end-users should be actively using the CRM
-  within 30 days post-implementation.
 
+### Success Criteria
+
+The project will be considered successful if it:
+
+- Improves project visibility through a centralized dashboard.
+- Reduces the time required to prepare weekly client reports.
+- Enables effective tracking of project issues and schedule risks.
+- Receives positive feedback from key users.
+- Meets the defined availability and performance expectations.
+- Maintains accurate and consistent project information.
+- Enforces secure role-based access.
+- Is successfully adopted by the intended users after basic training.
 
 ## Who does what
 
 
 ### People
 
-Identify all the people who are involved a.k.a. the participants a.k.a. the
-stakeholders.
+The identified participants are:
 
-Include employees, contractors, consultants, partners, vendors, customers,
-auditors, investors, advisors, etc., and provide relevant contact information,
-such as phone numbers, email addresses, messaging usernames, web links,
-availability hours, etc.
-
-We suggest creating a document named "people" that contains this information,
-then continuously improving it.
-
+- BuildRight Contractors (client).
+- Project supervisor.
+- Operations manager.
+- Person responsible for preparing reports for clients.
+- System development team (BuildTrack).
 
 ### Roles
 
-Identify the roles that are involved.
+**Project Supervisor**
+- Updates the progress of tasks and activities.
+- Logs incidents.
+- Manages project milestones.
 
-Include employee roles, contractor roles, consultant roles, partner roles,
-vendor roles, customer roles, auditor roles, investor roles, advisor roles,
-etc., and provide relevant role information, such as what the role does, its
-capabilities and limits, etc.
+**Operations Manager**
+- Oversees all projects.
+- Checks the dashboard.
+- Monitors adherence to the schedule.
 
-We suggest creating a document named "roles" that contains this information,
-then continuously improving it.
-
+**Reporting Manager**
+- Uses information from the system to prepare reports for clients.
 
 ### Responsibilities
 
-Identify the responsibilities that are involved.
+| Activity | Supervisor | Manager | Reporting Lead |
+|---|---|---|---|
+| Create projects | R | A | I |
+| Update tasks | R | C | I |
+| Log incidents | R | C | I |
+| Review the dashboard | C | R | C |
+| Prepare weekly reports | I | C | R |
 
-We recommend using a responsibility assignment matrix (RAM) a.k.a. linear
-responsibility chart (LRC).
-
-We suggest creating a document named "responsibilities" that contains this
-information, then continuously improving it. We use a RAM called a RACIO matrix.
-The matrix columns are roles. The matrix rows are areas of responsibility, such
-as task groupings. The matrix cells are role-task assignments. A matrix cell
-indicates the role-responsibility assignment as one of Responsible, Accountable,
-Consultable, Informable, Omittable. A matrix cell may also provide any
-assignment notes and details.
-
+R: Responsible · A: Approves / Final approver · C: Consulted · I: Informed
 
 ## Context
 
 
 ### Present
 
-Identify how the work is involved with the overall organization, its objectives,
-its projects, and its industry.
+**Identified Obstacles:**
+- Project information is currently scattered across messages, spreadsheets, and folders containing photos.
+- There is no clear overview of the status of tasks or milestones.
+- Reports for clients are prepared manually each week.
+- The lack of visibility makes it difficult to detect project delays in a timely manner.
 
-Describe the organization, end users, bibliography, references, technical
-experts in the field, etc.
-
-Include anything that will assist the contractor in formulating a good bid, and
-the client in achieving shared understanding.
+Currently, project information is scattered across messages, spreadsheets, and separate folders of photos. Managers must manually compile the information at the end of each week to prepare reports for clients, which makes it difficult to determine the actual status of projects and respond quickly to potential delays.
 
 
 ### Future
 
-Describe how the work relates to the future, such as of the project,
-organization, industry, etc.
-
-Identify any relevant future roadmaps, future objectives, future work, etc.
-
-Identify any relevant future people, such as follow-on participants, potential
-upcoming stakeholders, etc.
+With the implementation of the system, BuildRight Contractors will have a centralized platform to manage the progress of its projects. Managers will be able to view the status of tasks, milestones, and issues in real time, as well as generate weekly summaries more efficiently. As a potential future improvement, the RFP includes the ability to capture information from mobile devices without an internet connection.
 
 
 
@@ -285,28 +205,59 @@ upcoming stakeholders, etc.
 
 ### Requirements
 
-Describe the tasks or activities to be performed by the contractor.
+The system shall provide the following functional capabilities as part of the Minimum Viable Product (MVP):
 
-Include a detailed description of what is required for each of the identified
-deliverables.
+### FR-01: Project Management
+The system shall allow authorized users to create, configure, edit, and manage projects.
 
-Provide sufficient information so that all parties will be able to understand
-what signals completion of a phase, or milestone, or deliverable.
+### FR-02: Milestone Management
+The system shall allow users to create, update, and monitor project milestones.
 
-In most situations, this section will identify what methodology and sequence
-each of the deliverables will need to meet, how the deliverable will need to be
-delivered and what will be the relationship of one deliverable with another.
-This section will provide information on the language, format, version and
-content requirements for each task or activity and each deliverable or milestone
-in the work.
+### FR-03: Task Status Management
+The system shall allow users to update the status and progress of project tasks.
 
-It will also reference the Schedule and Estimated Level of Effort expected for
-completion of the work; any Specifications or Standards which will be used; and
-the Method and Source of Acceptance which will be applied by the Client to the
-deliverables. This information may help to establish a progress payment
-schedule.
+### FR-04: Issue Management
+The system shall allow project supervisors to register, update, and track issues that may affect project schedules or deliverables.
 
-You may see all this information included in a table and/or text.
+### FR-05: Weekly Summary View
+The system shall provide a weekly project summary that consolidates project progress and supports client reporting.
+
+### FR-06: Project Dashboard
+The system shall provide a centralized dashboard where operations managers can monitor the status and progress of all active projects.
+
+### FR-07: User and Role Management
+The system shall manage users and enforce role-based permissions, ensuring each user can only access the features corresponding to their responsibilities.
+
+### FR-08: Web-Based Access
+The system shall be deployed as a web application, allowing authorized users to access it through a standard web browser.
+
+### FR-09: Project Progress Tracking
+The system shall allow authorized users to record project progress and consult the current status of projects in real time.
+
+### FR-10: Report Generation
+The system shall allow users to generate project reports according to their assigned role and permissions.
+
+
+The project deliverables include:
+
+- Web application for project tracking.
+- Project configuration and management module.
+- Milestone management module.
+- Task status update functionality.
+- Issue registration and tracking module.
+- Weekly project summary view.
+- Project monitoring dashboard.
+- User and role management module.
+
+### Acceptance Criteria
+
+The project will be accepted when:
+
+- All functional requirements are fully implemented.
+- Each module operates correctly within the defined MVP scope.
+- Role-based access control functions as specified.
+- Authorized users can successfully manage projects, milestones, tasks, issues, dashboards, and reports through the web application.
+- The system is accessible through a web browser and performs according to the defined acceptance criteria.
 
 
 ## Other terms and conditions
@@ -314,26 +265,13 @@ You may see all this information included in a table and/or text.
 
 ### Client's obligations
 
-Identify the access to facilities, the loan or use of Furnished Equipment, the
-access to documentation, networks, etc. which Client will provide to the
-Contractor. 
+BuildRight Contractors must:
 
-The following are examples of the contents that may be included under this
-heading:
-
-* Ensure availability of staff with whom the contractor may need to consult.
-
-* Access to the Client's policies, procedures, publications, reports, studies,
-  etc.
-
-* Access to appropriate guidelines, standards, industry regulations.
-  
-* Provide comments on draft reports within five working days from receipt of
-  report.
-
-* Schedule events such as meetings, calls, conferences, if required.
-
-* Provide applicable documentation.
+- Provide the necessary information about current projects.
+- Facilitate the validation of system requirements.
+- Designate the users who will participate in testing.
+- Review and approve the deliverables developed.
+- Provide feedback during the course of the project.
 
 
 ## Schedule
@@ -341,19 +279,21 @@ heading:
 
 ### Expected start date and completion date
 
-Identify the period in which the work is to be performed.
+The proposed duration is approximately 16 weeks, organized into phases of analysis, design, development, testing, and implementation.
 
-More details are provided in the section of the SOW which identify the specific
-schedule which will be required for completion of the work.
+- **Estimated start date:** July 23, 2026
+- **Estimated completion:** November 20, 2025
+**Timeline / Milestones:**
 
-Example language:
-
-* The services of the Contractor will be required for a period of approximately
-  (weeks, months or years), commencing on or about (day, month, year), and with
-  expected completion on or about (day, month, year).
-
-This section may also specify allowable time for work, such as number of hours
-that can be billed per day, week, month, etc.
+| Milestone | Report | Deadline |
+|---|---|---|
+| Requirements gathering | Requirements document | Week 1 |
+| System design | Interface and database design | Week 2 |
+| Development of the projects and milestones module | Development progress report | Week 6 |
+| Development of the Tasks and Issues Module | Development Progress Report | Week 10 |
+| Development of the Dashboard and Weekly Summary | Development Progress Report | Week 14 |
+| Testing and Debugging | Test Report | Week 15 |
+| Final System Delivery | Implementation and Presentation | Week 16 |
 
 
 ### Sign-off
