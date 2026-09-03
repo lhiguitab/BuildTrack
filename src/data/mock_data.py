@@ -11,3 +11,12 @@ mock_milestones_data = [
         "updated_at": "2026-08-20T16:30:00Z"
     }
 ]
+
+mock_tasks_data = [
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440201",
+        "milestone_id": "550e8400-e29b-41d4-a716-446655440001",
+        "name": "Approve final plans",
+        "status": "completed"
+    }
+]
