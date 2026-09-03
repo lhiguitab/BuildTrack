@@ -26,3 +26,13 @@ def update_milestone_status(milestone_id: str, status: str):
 
     milestone["status"] = status
     return milestone
+
+
+def update_task_status(task_id: str, status: str):
+    task = next((item for item in mock_tasks_data if item["id"] == task_id), None)
+
+    if task is None:
+        raise LookupError("Task not found")
+
+    task["status"] = status
+    return task
